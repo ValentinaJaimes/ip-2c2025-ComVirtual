@@ -1,4 +1,5 @@
 # Contrato: init(vals), step() -> {"a": int, "b": int, "swap": bool, "done": bool}
+#FALTA AGREGAR METRICAS!!
 
 items = []
 n = 0
