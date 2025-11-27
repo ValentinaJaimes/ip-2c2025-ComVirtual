@@ -46,7 +46,7 @@ def step():
 
 
         i += 1
-        if i >= n - 1:
+        if i >= n:
             return {"a": 0, "b": 0, "swap": False, "done": True}
 
 
