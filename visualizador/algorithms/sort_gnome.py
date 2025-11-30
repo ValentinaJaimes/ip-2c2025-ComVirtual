@@ -25,7 +25,7 @@ def step():
     global steps, comparaciones
 
     steps += 1   # Se cuenta el paso
-    print(f"DEBUG {steps}: Comparaciones={comparaciones}, Steps={steps}, i={i}")  #Muestra en DevTools (f12) 
+    print(f"DEBUG {steps}: Comparaciones={comparaciones}, Steps={steps}")  #Muestra en DevTools (f12) 
     
     # Si i >= n: devolver {"done": True}. // Fin del programa
     if i >= n:

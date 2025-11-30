@@ -41,7 +41,7 @@ def step():
             # reducir gap
             gap //= 2
             if gap == 0:
-                print(f"*** ALGORITMO FINALIZADO. Comparaciones totales: {comparaciones} ***")
+                print(f"*** ALGORITMO FINALIZADO. Comparaciones totales: {comparaciones}, Steps totales: {steps} ***")
                 return {"done": True}
             i = gap
             j = None
